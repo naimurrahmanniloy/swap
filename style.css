@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: oswald;
+
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 30px;
+    background-color: rgba(0,0,0,0.5);
+    line-height: 50px;
+    position: fixed;
+    z-index: 1;
+
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.8s all;
+}
+
+.logo{
+    background-color: #0022ff;
+    padding: 0px 20px;
+}
+
+.logo a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul li a:hover{
+    color: #0022ff;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+.image_box{
+    position: relative;
+}
+
+.contant{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%) ;
+    width: 70%;
+}
+
+.details_box{
+    columns: #333333;;
+}
+.details_box h2{
+    font-size: 2.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.details_box h1{
+    font-size: 5vw;
+    
+}
+
+.details_box h1 span{
+    color: blue;
+    margin: 0;
+
+}
+
+.details_box p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.details_box a{
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: center;
+    transition: 0.8s all;
+}
+
+.details_box a:hover{
+    background-color: #333333;
+    color: #fff;
+}
+
+.form{
+    background-color: #333333;
+    height:800px;
+    width: 100%;
+}
+
+.action{
+    width: 320px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:40px 10px;
+}
+
+.full_form{
+    padding-top: 100px;
+}
+
+.value{
+    margin-right: 10px;
+    color: #fff; 
+    margin-bottom: 20px;
+}
+
+.form_h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: slategray;
+}
+
+.full_form p{
+    margin-bottom: 5px;
+    padding:0;
+    color: white;
+
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding:5px;
+}
+
+.btn{
+
+    display: inline;
+    background-color: wheat;
+    padding:5px 10px;
+    text-align: center;
+    transition: 0.8s all;
+    border-radius: 5px;
+    text-decoration: none;
+    }
+
+
+
+.btn:hover{
+    background-color: teal;
+    color: white;
+    
+}
